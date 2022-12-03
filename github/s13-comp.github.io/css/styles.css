@@ -1,0 +1,170 @@
+*{
+    font-family: 'inter', sans-serif;
+    font-family: 'source sans pro', sans-serif;
+    color: #1D4946;
+}
+
+.gridlayout{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #DDEFC2;
+    height: 25vh;
+}
+
+.mainsection{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: #DDEFC2;
+}
+
+.footer{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: #DDEFC2;
+    height: 25vh;
+}
+
+.one{
+    float: right;
+    padding: 15px;
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.title1{
+    text-align: left;
+    font-size: 80px;
+}
+
+.filler{
+    font-size: 80px;
+    color:#DDEFC2
+}
+
+.filler2{
+    font-size: 72px;
+    color:#DDEFC2;
+}
+
+.contactinfo{
+    font-size: 38px;
+}
+
+.image{
+    background-image: url(../img/lights.jpeg);
+    height: 780px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.25;
+}
+
+.mainsectionone{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: #f2f3e7;
+}
+
+.about{
+    text-align: center;
+    font-size: 65px;
+}
+
+.titleabout{
+    text-align: center;
+    font-size: 40px;
+}
+
+.missiondes{
+    text-align: center;
+    font-size: 33px;
+}
+
+.mainsectiontwo{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: #DDEFC2;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+form {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #c3dfce;
+    border-radius: 4px;
+}
+  
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select{
+    border: 2px solid transparent;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+  
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+border: 2px solid #1D4946;
+}
+  
+button {
+    padding: 19px 39px 18px 39px;
+    color: #1D4946;
+    background-color: white;
+    font-size: 27px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 350ms;
+}
+  
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 25px;
+    text-align: center;
+}
+
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+
